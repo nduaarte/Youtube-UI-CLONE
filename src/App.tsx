@@ -6,7 +6,7 @@ import Videos from './components/Videos';
 
 function App() {
   return (
-    <div>
+    <div className="father">
       <Header />
       <Videos />
     </div>
