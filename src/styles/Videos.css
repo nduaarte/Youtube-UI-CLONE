@@ -1,5 +1,39 @@
 .videos {
-  height: 90%;
   background-color: #030505;
-  flex: 1;
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.videos__video {
+  margin: 25px 10px;
+}
+
+.videos__row {
+  flex-direction: row;
+  display: flex;
+}
+
+.videos__avatar {
+  width: 36px;
+  height: 36px;
+  margin: 0 10px 0 0;
+}
+
+.videos__thumb {
+  width: 276px;  
+  height: 155px; 
+}
+
+.videos__title {
+  font: 14px Roboto, Arial, sans-serif;
+  color: #fff;
+  margin: 8px 0 8px 0;
+}
+
+.videos__video ul li {
+  font: 12px Roboto, Arial, sans-serif;
+  color: #cccc;
 }

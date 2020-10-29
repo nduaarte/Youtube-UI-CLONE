@@ -4,13 +4,13 @@ import { BsGrid3X3Gap, BsFillCameraVideoFill } from 'react-icons/bs';
 
 import '../styles/Header.css';
 import logo from '../images/logo.png';
-import avatar from '../images/avataaars.png'
+import avatar from '../images/avatar.png'
 
 export default function Header() {
   return (
     <div className="headerContainer">
       
-      <img src={logo} alt="youtube"/>
+      <img className="youtube_logo" src={logo} alt="youtube"/>
 
       <div className="search">
         <input placeholder="Pesquisar" />
@@ -21,6 +21,9 @@ export default function Header() {
   
       <div className="menu">
         <ul>
+          <li className="menu_search_icon">
+            <AiOutlineSearch color='#9D9D9D' size={21} />
+          </li>
           <li>
             <BsFillCameraVideoFill color='#9D9E9D' size={21} />
           </li>
